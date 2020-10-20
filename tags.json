@@ -1,0 +1,98 @@
+[
+    {
+        "nodeId": "ns=1;s=temperature",
+        "browseName": "temperature",
+        "dataType": "Double",
+        "func": "(5/9 * (senseData.temperature - 32)).toFixed(4)"
+    },
+    {
+        "nodeId": "ns=1;s=pressure",
+        "browseName": "pressure",
+        "dataType": "Double",
+        "func": "senseData.pressure.toFixed(4)"
+    },
+    {
+        "nodeId": "ns=1;s=humidity",
+        "browseName": "humidity",
+        "dataType": "Double",
+        "func": "senseData.humidity.toFixed(4)"
+    },
+    {
+        "nodeId": "ns=1;s=tiltHeading",
+        "browseName": "tiltHeading",
+        "dataType": "Double",
+        "func": "senseData.tiltHeading.toFixed(4)"
+    },
+    {
+        "nodeId": "ns=1;s=accel-x",
+        "browseName": "accel-x",
+        "dataType": "Double",
+        "func": "senseData.accel.x.toFixed(4)"
+    },
+    {
+        "nodeId": "ns=1;s=accel-y",
+        "browseName": "accel-y",
+        "dataType": "Double",
+        "func": "senseData.accel.y.toFixed(4)"
+    },
+    {
+        "nodeId": "ns=1;s=accel-z",
+        "browseName": "accel-z",
+        "dataType": "Double",
+        "func": "senseData.accel.z.toFixed(4)"
+    },
+    {
+        "nodeId": "ns=1;s=gyro-x",
+        "browseName": "gyro-x",
+        "dataType": "Double",
+        "func": "senseData.gyro.x.toFixed(4)"
+    },
+    {
+        "nodeId": "ns=1;s=gyro-y",
+        "browseName": "gyro-y",
+        "dataType": "Double",
+        "func": "senseData.gyro.y.toFixed(4)"
+    },
+    {
+        "nodeId": "ns=1;s=gyro-z",
+        "browseName": "gyro-z",
+        "dataType": "Double",
+        "func": "senseData.gyro.z.toFixed(4)"
+    },
+    {
+        "nodeId": "ns=1;s=compass-x",
+        "browseName": "compass-x",
+        "dataType": "Double",
+        "func": "senseData.compass.x"
+    },
+    {
+        "nodeId": "ns=1;s=compass-y",
+        "browseName": "compass-y",
+        "dataType": "Double",
+        "func": "senseData.compass.y"
+    },
+    {
+        "nodeId": "ns=1;s=compass-z",
+        "browseName": "compass-z",
+        "dataType": "Double",
+        "func": "senseData.compass.z"
+    },
+    {
+        "nodeId": "ns=1;s=fusionPose-x",
+        "browseName": "fusionPose-x",
+        "dataType": "Double",
+        "func": "senseData.fusionPose.x"
+    },
+    {
+        "nodeId": "ns=1;s=fusionPose-y",
+        "browseName": "fusionPose-y",
+        "dataType": "Double",
+        "func": "senseData.fusionPose.y"
+    },
+    {
+        "nodeId": "ns=1;s=fusionPose-z",
+        "browseName": "fusionPose-z",
+        "dataType": "Double",
+        "func": "senseData.fusionPose.z"
+    }
+]
